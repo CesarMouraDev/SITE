@@ -3,22 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora</title>
 </head>
 <body>
-    <table>
+    <style>
+        body{
+            background-color: red;
+        }
+        table{
+            background-color: beige;
+        }
+        .borda{
+            border: 1px solid black;
+        }
+        
+        td{border: 1px solid black;}
+    </style>
+
+        <table style="color: black;">
         <tr>
-            <td>Chuchu Atomico</td>
-            <td>Segundo Chuchu Atomico</td>
-            <td>Terceiro Chuchu Atomico</td>
-            <td>Quarto Chuchu Atomico</td>            
+            <td colspan="4" style="border: none;">Calculadora</td>
         </tr>
         <tr>
-            <td>Cachorro Salchicha</td>
-            <td></td>
-            <td>Cachorro Chuchu</td>
+            <td  colspan="4" style="text-align: right;">2+2</td>
         </tr>
-    
+       <tr>
+            <td>C</td>
+            <td><</td>
+            <td>/</td>
+            <td>X</td>
+        
+        </tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>-</td>
+        <tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>+</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td rowspan="2">=</td>
+        </tr>
+        <tr>
+            <td colspan="2">0</td>
+            <td>.</td>
+        </tr>
+
+
+    </tr>
     </table>   
     
 </body>
